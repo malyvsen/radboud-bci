@@ -102,3 +102,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+assignment1_channels.txt
+
+assignment1_data.npz
