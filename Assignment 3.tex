@@ -1,0 +1,120 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{BCI Assignment 3}
+\author{}
+\date{October 2019}
+
+\begin{document}
+
+\maketitle
+
+\section{2.4.1 EEG}
+\begin{enumerate}
+   \item Time domain
+   \begin{itemize}
+     \item What do you see?
+     
+     \item What is the average magnitude of EEG fluctuations?
+     
+     \item When comparing near-by electrodes do the signals look similar (e.g. Oz and O1)?
+     
+     \item What about when comparing distant electrodes (e.g. Fz versus Oz)?
+   \end{itemize}
+   \item Frequency domain
+   \begin{itemize}
+     \item What do you see?
+     
+     \item Does the power decrease with frequency?
+     
+     \item Are there any electrodes where this is not the case? If so, what is the location, and
+at what frequency does the power increase? (Hint: alpha peak?)
+     
+   \end{itemize}
+\end{enumerate}
+
+\begin{tabular}{ |p{3cm}||p{10cm}| }
+ \hline
+ \textbf{Task} & \textbf{Observation}\\
+ \hline
+ \multirow Time-domain  & \\
+ \hline
+ \multirow Frequency-domain & \\
+ \hline
+\end{tabular}
+
+\section{2.5.1 External artifacts}
+\begin{enumerate}
+    \item  Bring up the Sig-Proc-Options window and turn off all pre-processing by setting Preprocessing to None, Spatial filter to None, and Spectral Filter to low-cut-off=0 and highcut-off=inf. What happened, what does the data look like?
+    
+    \item Turn the Pre-processing to Center. What changed? What do you think this Center option
+does?
+
+    \item Switch the Sig-Viewer to time-domain and for each of the following artifacts take a
+note of its approximate size (in muV), location (frontal, temporal, central, occipital) and
+frequency (speed of fluctuations) as either slow (¡5 Hz) or fast (¿15 Hz):
+\end{enumerate}
+
+\begin{tabular}{ |p{3cm}||p{10cm}| }
+ \hline
+ \textbf{Task} & \textbf{Observation}\\
+ \hline
+ \multirow Bad channel (i.e.
+tapping/removing
+an electrode) & \\
+ \hline
+ \multirow Electrode drift & \\
+ \hline
+ \multirow Line-noise & \\
+ \hline
+ \multirow Muscle movement
+(i.e., jaw-clenching) & \\
+ \hline
+ \multirow Eye movement (i.e.,
+blinking) & \\
+ \hline
+ \multirow Eye movement (i.e.,
+moving up/down or
+left/right) & \\
+ \hline
+ \multirow Movement (i.e., head
+movement) & \\
+ \hline
+\end{tabular}
+
+\section{2.6.1 Internal artifacts}
+\begin{enumerate}
+    \item What does detrend do?
+    \item Why high-cut-off of 47?
+    \item Which changes are associated with the change
+in the mental state?
+\end{enumerate}
+
+\begin{tabular}{ |p{3cm}||p{10cm}| }
+ \hline
+ \textbf{Task} & \textbf{Observation}\\
+ \hline
+ \multirow Eyes open versus closed  & \\
+ \hline
+\end{tabular}
+
+\section{2.7.1 Referencing}
+\begin{tabular}{ |p{3cm}||p{10cm}| }
+ \hline
+ \textbf{Task} & \textbf{Observation}\\
+ \hline
+ \multirow None  & \\
+ \hline
+ \multirow CAR  & \\
+ \hline
+ \multirow SLAP & \\
+ \hline
+\end{tabular}
+
+
+
+
+
+
+
+\end{document}
